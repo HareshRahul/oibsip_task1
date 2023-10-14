@@ -1,0 +1,119 @@
+#container { 
+    background-color:rgba(32, 154, 140, 0.668);
+     display: flex; 
+     border: 1px solid rgb(239, 86, 81);
+     align-items: center; 
+     justify-content: space-between; 
+     flex-wrap: wrap; 
+     border: 1px saddlebrown; 
+ } 
+  
+ nav ul li { 
+     display: inline-block; 
+     list-style: none; 
+     margin: 30px 125px 10px 0px; 
+     background-color: burlywood;
+  
+ } 
+  
+ nav ul li a { 
+     color: black; 
+     text-decoration: none; 
+     font-size: 40px; 
+     position: relative; 
+  
+ } 
+  
+ nav ul li a::after { 
+     content: ''; 
+     width: 0%; 
+     height: 3px; 
+     background: #6f3206; 
+     position: absolute; 
+     left: 0; 
+     bottom: -6px; 
+     transition: 0.5s; 
+  
+ } 
+ #about p{
+    text-align: left;
+ }
+  
+ nav ul li a:hover::after { 
+     width: 100%; 
+ } 
+  
+ #home { 
+     border: 1px solid  rgba(32, 154, 140, 0.668) ; 
+     height: 70vh; 
+     background-color: rgba(32, 154, 140, 0.668); 
+     margin: 8px -8px 0px -8px; 
+ } 
+  
+ #home #h01 { 
+     color: black; 
+     padding-top: 1px; 
+     text-align: center; 
+     font-family: sans-serif;
+     font-size: 180px; 
+     border: 1px solid white ;
+     
+     border-radius: 40px;
+ } 
+ 
+  
+ #about { 
+     height: 100vh; 
+     background-color:  rgba(32, 154, 140, 0.668); 
+     margin: 0px -8px 0px -8px; 
+     padding-top: 50px; 
+     text-align: center; 
+     font-size: 45px; 
+ } 
+  
+ #product { 
+     border: 1px solid rgba(196, 125, 53, 0.668); 
+     height: 200vh; 
+     background-color: rgba(32, 154, 140, 0.668); 
+     margin: 0px -8px 0px -8px; 
+ } 
+  
+  
+ #product1 { 
+     text-align: center; 
+     font-size: 45px; 
+     color: black;
+     background-color: burlywood; 
+ } 
+  
+ 
+  
+ #choco3 { 
+     height: 300px; 
+     width: 300px; 
+     padding: 145px 40px 70px 130px; 
+ } 
+  
+ #choco4 { 
+     height: 300px; 
+     width: 300px; 
+     padding: 145px 40px 70px 130px; 
+ } 
+  
+ #choco5 { 
+     height: 300px; 
+     width: 300px; 
+     padding: 145px 40px 70px 150px; 
+ } 
+  
+
+  
+ #order1 { 
+     text-align: center; 
+     font-size: 40px; 
+ }
+ #about1{
+    background-color: burlywood;
+    
+    font-size: 60px;
+ }
